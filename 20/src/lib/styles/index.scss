@@ -1,0 +1,15 @@
+@import "./scheme";
+
+body {
+  margin: 0px;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+}
+
+.vkuiPanelHeader__in {
+  border-radius: 0px 0px 15px 15px;
+}
