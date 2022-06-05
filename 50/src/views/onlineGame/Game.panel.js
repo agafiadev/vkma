@@ -46,7 +46,7 @@ export const GamePanel = ({ id, setActiveView }) => {
 
   const gameExit = async () => {
     const res = await axios
-      .post("http://localhost:3000/api.php", {
+      .post("https://008d-8-40-29-9.eu.ngrok.io/api.php", {
         authData: {
           vkSign: window.location.search,
           vkId: vkData.id,
@@ -78,7 +78,7 @@ export const GamePanel = ({ id, setActiveView }) => {
 
   const startGame = async () => {
     const res = await axios
-      .post("http://localhost:3000/api.php", {
+      .post("https://008d-8-40-29-9.eu.ngrok.io/api.php", {
         authData: {
           vkSign: window.location.search,
           vkId: vkData.id,
@@ -106,7 +106,7 @@ export const GamePanel = ({ id, setActiveView }) => {
 
   const endGame = async () => {
     const res = await axios
-      .post("http://localhost:3000/api.php", {
+      .post("https://008d-8-40-29-9.eu.ngrok.io/api.php", {
         authData: {
           vkSign: window.location.search,
           vkId: vkData.id,
@@ -140,7 +140,7 @@ export const GamePanel = ({ id, setActiveView }) => {
         return;
       } else {
         const res = await axios
-          .post("http://localhost:3000/api.php", {
+          .post("https://008d-8-40-29-9.eu.ngrok.io/api.php", {
             authData: {
               vkSign: window.location.search,
               vkId: vkData.id,
