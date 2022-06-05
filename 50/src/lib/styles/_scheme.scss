@@ -1,0 +1,21 @@
+body {
+  --header_background: #ff7d6b !important;
+  --background_content: #fdffee !important;
+  --loader_track_fill: #ff7d6b !important;
+  --accent: #ff7d6b !important;
+  --header_text: #fdffee !important;
+  --header_text_secondary: #fee7d9 !important;
+  --button_commerce_background: #ff7d6b !important;
+  --destructive: #e64646 !important;
+}
+
+.vkuiButton {
+  border-radius: 10px !important;
+}
+
+.vkuiButton--lvl-secondary {
+  color: #818c99 !important;
+  border: 1px solid #ff7d6b;
+  box-sizing: border-box;
+  background: transparent;
+}
